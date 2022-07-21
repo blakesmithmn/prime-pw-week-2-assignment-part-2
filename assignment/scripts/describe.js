@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we set a variable under name - using the string Dane
+// next, we have a conditional that checks the variable 'name' to see if it matches exactly to 'Mary'
+// if our name was Mary, it would print 'Hi Mary!' to the console log ... however, our name is Dane! SO
+// our 'else' catches this and the console log introduces itself to us by printing 'How do you do?'
+// as stated above the final log would be 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +46,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Here we start out with an undefined variable secret - it does not have a value YET
+// we also introduce the variable code with the numberic value of 123
+// our conditional checks to see if the variable 'code' matches the numeric value 123 (exactly) and it does!
+// in this case - it assigns the value 'super' to the variable secret established in line 56, while aslo reassigning
+// the value of code to twice itself. Since the new value of code is LESS THAN 250 ... the value of secret is unchanged!
+// if the value of 'code' heading into line 68 would have been greater than 250 the value of secret would have changed to 'duper' along with the final log
+//the final log of the variable secret is 'super'
 
 //CODE
 /*
