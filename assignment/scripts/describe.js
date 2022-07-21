@@ -74,10 +74,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// here we start by setting the variable 'isStudent' to the boolean value true, also set variable age to 
+// the numeric value 34, and also setting our zip variable to 55407 - another numeric value.
+// our conditional is first checking that our student status is true, while also checking to see if our zip code value is greater than 80000
+// if both of those statements were true it would log that we are a student on the west coast!
+// the else if means if that first 'if' is not applicable ... try this one! this time it is checking to see if we are not a student, or under the age of 30
+// if EITHER of those statements are true it will log asking "what are your Hobbies?"
+//finally - our else will check for any other potential outcomes of the answers - and simply default to asking about the weather.
+// this conditional will end up logging "How about the weather?" since none of the other conditionals apply to our demographic
 
 //CODE
 /*
@@ -117,9 +121,9 @@ if (isStudent === true && zip > 80000 ) {
 /*
 let number = 1;
 
-// FIX - number-- decrements number, but the instructions ask to increment. 
+// FIX - number-- decrements number, but the instructions ask to increment.
 // Should be number++.
-number--; 
+number--;
 
 if (number >= 2) {
   console.log('yes');
@@ -134,12 +138,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// colorOne should be set to 'blue'
 let colorOne = 'red';
+// colorTwo should be set to 'red'
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  //missing code below
+  colorTwo = 'purple';
 }
 */
 
@@ -149,8 +157,10 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// as stated above it is a variable not a constant - let time = 4;
 const time = 4;
 
+// the conditional below is using the OR (||) ... we should be using AND &&
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -162,7 +172,19 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+//once again this is stated as a constant but should be a variable ... let minAge = 21;
 const minAge = 21;
+
+
+// i would flip this around? i'm not sure it's the answer but it makes much more sense ...?
+if (age >= minAge) {
+  console.log('enter');
+} else {
+  console.log('no entry');
+}
+
+
+
 
 if(minAge <= age) {
   console.log('no entry');
