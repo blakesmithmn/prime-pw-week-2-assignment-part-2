@@ -76,7 +76,7 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // here we start by setting the variable 'isStudent' to the boolean value true, also set variable age to 
 // the numeric value 34, and also setting our zip variable to 55407 - another numeric value.
-// our conditional is first checking that our student status is true, while also checking to see if our zip code value is greater than 80000
+// our conditional is first checking that our student status is exactly true, while also checking to see if our zip code value is greater than 80000
 // if both of those statements were true it would log that we are a student on the west coast!
 // the else if means if that first 'if' is not applicable ... try this one! this time it is checking to see if we are not a student, or under the age of 30
 // if EITHER of those statements are true it will log asking "what are your Hobbies?"
